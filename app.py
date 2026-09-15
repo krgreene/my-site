@@ -26,7 +26,7 @@ with st.container(border=True):
         st.image('assets/python-logo-only.svg', width=32)
         st.image('assets/Primary_Horizontal_Lockup_Full_Color.svg', width=120)
         st.image('assets/react-dev-logo.png', width=32)
-        st.image('assets\qgis-nl-logo.png', width=32)
+        st.image('assets/qgis-nl-logo.png', width=32)
 
 st.subheader('Sample projects')
 
