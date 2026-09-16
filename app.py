@@ -35,8 +35,10 @@ with st.container(border=True):
     st.caption('Forecasting invasive seaweed')
     st.caption('IDL to Python, NoSQL, React')
 
-    with st.expander(label='Preview', expanded=False):
-        st.iframe(
+    expander_1 = st.expander(label='Preview', expanded=False, on_change='rerun', key='expander1')
+
+    if expander_1.open:
+        expander_1.iframe(
             src='https://sargassum-outlook.web.app/',
             width='stretch',
             height=600
@@ -47,8 +49,10 @@ with st.container(border=True):
     st.caption('Map Reading training aid')
     st.caption('React, Leaflet')
 
-    with st.expander(label='Preview', expanded=False):
-        st.iframe(
+    expander_2 = st.expander(label='Preview', expanded=False, on_change='rerun', key='expander2')
+
+    if expander_2.open:
+        expander_2.iframe(
             src='https://map-tools.web.app/',
             width='stretch',
             height=600
@@ -59,8 +63,10 @@ with st.container(border=True):
     st.caption('Geo-informatics training manual')
     st.caption('Markdown, Just the Docs, QGIS')
 
-    with st.expander(label='Preview', expanded=False):
-        st.iframe(
+    expander_3 = st.expander(label='Preview', expanded=False, on_change='rerun', key='expander3')
+    
+    if expander_3.open:
+        expander_3.iframe(
             src='https://krgreene.github.io/geo-info/',
             width='stretch',
             height=600
