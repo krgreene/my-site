@@ -17,7 +17,7 @@ with st.container(border=True):
         st.image('assets/flag-barbados.png', width=32)
         st.caption('🇧🇧')
 
-    st.write('Postgrduate Researcher at the University of Southampton')
+    st.write('Postgraduate Researcher at the University of Southampton')
     st.write('Skills: Full-stack development, mapping, GIS')
     st.write('[https://orcid.org/0009-0008-0115-6812](https://orcid.org/0009-0008-0115-6812)')
     st.space('small')
